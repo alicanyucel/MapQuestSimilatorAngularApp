@@ -1,4 +1,4 @@
-# Similator by to Ali Can Yücel- M.Sc Software Engineer
+# Similator by to Ali Can Yücel - M.Sc. Software Engineer
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
