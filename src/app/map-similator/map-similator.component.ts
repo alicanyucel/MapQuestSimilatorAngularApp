@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./map-similator.component.scss']
 })
 export class MapSimilatorComponent {
-//deneme commit
+
 }
