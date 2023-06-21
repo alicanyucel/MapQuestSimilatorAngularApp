@@ -1,17 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angular Map Similator By to Ali Can Yücel</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
 </head>
-<body>
+<body style='border:0; margin: 0'>
+  <div id='map'></div>
+  <div class="formBlock">
+    <form id="form">
+      <input type="text" name="start" class="input" id="start" placeholder="Başlangıç noktasını seçin" />
+      <input type="text" name="end" class="input" id="destination" placeholder="Bitiş noktasını seçin" />
+      <button style="display: none;" type="submit">Yol Tarifi Al</button>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+  <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=S8d7L47mdyAG5nHG09dUnSPJjreUVPeC"></script>
+  <script
+    src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=S8d7L47mdyAG5nHG09dUnSPJjreUVPeC"></script>
 </body>
 </html>
-
-
-
-
-
-
